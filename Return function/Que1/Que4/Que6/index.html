@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script> 
+        // Wap to check number is palindrom or not using return  function
+
+        function palindrom(num){
+            let 
+            temp = num;
+            let rev = 0;
+
+            while(num>0){
+                let digit = num % 10;
+                rev = rev * 10 + digit;
+                num = Math.floor(num / 10);
+            }
+            if(temp === rev){
+                return true;
+            }
+            else{
+                return false;
+            }
+
+        } 
+        console.log("Is palindrom : " + palindrom(121));
+        console.log("Is palindrom : " + palindrom(123));
+            
+        
+    </script>
+</body>
+</html>
