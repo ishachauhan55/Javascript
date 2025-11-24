@@ -2,7 +2,7 @@
 
 // area of a rectangle
 
-let length = 7;
+let length = 5;
 let width = 4;
 
 let area = length * width;
@@ -12,15 +12,15 @@ console.log("The area of the ractangle is : " + area);
 
 // c to f (temp)
 
-let Celsius = 30;
+let Celsius = 320;
 let Fahrenheit = (Celsius * 9 / 5) + 32;
 
 console.log(Celsius + "°C is equal to " + Fahrenheit + "°F");
 
 //  simple interest
 
-let p = 202545;  
-let r = 7; 
+let p = 1432552;  
+let r = 5; 
 let t = 10;
 
 let simpleInterest = (p * r * t) / 100;
@@ -30,8 +30,8 @@ console.log("The simple interest is :" + simpleInterest);
 
 // Swap two numbers 
 
-let x = 3;
-let y = 8;
+let x = 13;
+let y =28;
 
 let swap = x;
 x = y;
@@ -42,9 +42,9 @@ console.log(" swapping the value : x = " + x + " and y = " + y);
 
 // avg of three numbers.
 
-let num1 = 12;
-let num2 = 15;
-let num3 = 18;
+let num1 = 152;
+let num2 = 145;
+let num3 = 128;
 
 let average = (num1 + num2 + num3) / 3;
 
@@ -52,7 +52,7 @@ console.log(" The average of three numbers is : " + average);
 
 // use of ++ and -- operators.
 
-let count = 8;
+let count = 528;
 console.log("count: " + count);
 
 count++; 
@@ -65,7 +65,7 @@ console.log("After decrement: " + count);
 
 //  even or odd 
 
-let numberr = 15;
+let numberr = 115;
 
 if (numberr % 2 == 0) {
     console.log("Number is even !")
@@ -76,7 +76,7 @@ else {
 
 // Find the square and cube of a number using operators.
 
-let number1 = 9;
+let number1 = 29;
 
 let square = number1 ** 2;
 let cube = number1 ** 3;
@@ -89,8 +89,8 @@ console.log("THe cube of is : " + cube);
 
 //max out of two num.....
 
-let num = 25;
-let numb = 30;
+let num = 225;
+let numb = 320;
 
 if (num > numb) {
     console.log(num + " is greater than " + numb);
@@ -221,3 +221,4 @@ let c = 10;
 let sum = c + d;
 
 console.log("The sum of " + c + " and " + d + " is: " + sum);
+
